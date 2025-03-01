@@ -69,10 +69,10 @@ Specialty getSpecialtyFromInput() {
 
         key = _getch();
         switch (key) {
-        case 75: 
+        case 72: 
             if (specialtyChoice > 0) specialtyChoice--;
             break;
-        case 77: 
+        case 80: 
             if (specialtyChoice < 5) specialtyChoice++;
             break;
         case 13: 
